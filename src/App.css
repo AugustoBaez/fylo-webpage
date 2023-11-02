@@ -8,8 +8,24 @@
   text-align: center;
   color: black;
   background-color: #181f2a;
-  display: flex;
   width: 100%;
   height: 100%;
   position: absolute;
+}
+
+nav {
+  color: white;
+  width: 100%;
+  height: fit-content;
+  background-color: red;
+}
+
+nav, .navBtns, .App {
+  display: flex;
+}
+
+.navBtns {
+  width: 20%;
+  justify-content: space-between;
+  background-color: bisque;
 }

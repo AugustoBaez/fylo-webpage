@@ -24,9 +24,11 @@ const Homepage = () => {
                         806v16.688h-7.16V2.179h24.873v6.27z" />
                     </g>
                 </svg>
-                <p>Features</p>
-                <p>Team</p>
-                <p>Sign In</p>
+                <div className='navBtns'>
+                    <p>Features</p>
+                    <p>Team</p>
+                    <p>Sign In</p>
+                </div>
             </nav>
         </>
     )
