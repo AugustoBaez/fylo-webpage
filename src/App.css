@@ -23,7 +23,9 @@ nav,
 .App,
 .homepageContainer,
 .row,
-.description {
+.description,
+.testimonials,
+.testimonialBlock {
   display: flex;
 }
 
@@ -80,10 +82,37 @@ h2 {
 
 .infoContainer,
 .description,
-.homepageContainer, .App, #logo, nav {
+.homepageContainer,
+.App,
+#logo,
+nav {
   width: 100%;
 }
 
 .description2 {
   text-align: start;
+}
+
+.testimonialBlock {
+  background-color: #202a3c;
+  width: 400px;
+  height: 200px;
+  align-items: center;
+  text-align: start;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+  flex-direction: column;
+  padding: 30px;
+}
+
+.testimonials {
+  width: 100%;
+  justify-content: center;
+  gap: 5%;
+  margin-top: 5%;
+}
+
+.profile {
+  height: fit-content;
+  display: flex;
 }
