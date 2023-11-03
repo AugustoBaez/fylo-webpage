@@ -67,6 +67,7 @@ h2 {
 .row {
   text-align: center;
   flex-direction: row;
+  flex-wrap: wrap;
 }
 
 .description {
@@ -74,6 +75,7 @@ h2 {
   align-items: center;
   gap: 5%;
   margin-top: 5%;
+  flex-wrap: wrap;
 }
 
 .infoContainer,
