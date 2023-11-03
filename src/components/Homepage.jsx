@@ -1,8 +1,8 @@
 import React from 'react'
-
+/* import intro from "images/illustration-intro.png" */
 const Homepage = () => {
     return (
-        <>
+        <div className='homepageContainer'>
             <nav>
                 <svg width="176" height="52" xmlns="http://www.w3.org/2000/svg">
                     <g fill="#FFF" fill-rule="evenodd">
@@ -18,10 +18,8 @@ const Homepage = () => {
                         13.483a9.087 9.087 0 0 1-1.814.613 9.217 9.217 0 0 1-2.096.236c-1.005 0-1.971-.134-2.898-.4a6.347 6.347 0 0 
                         1-2.426-1.297c-.69-.597-1.24-1.375-1.649-2.334-.408-.958-.612-2.113-.612-3.465V.717h6.925v31.16c0 1.132.228 
                         1.91.683 2.334.456.425.997.637 1.625.637.786 0 1.54-.236 2.262-.707v5.562zM130.02 12.55l-12.249 32.386c-.91 
-                        2.42-2.104 4.164-3.58 5.233-1.476 1.068-3.235 1.603-5.277 1.603a8.4 8.4 0 0 1-1.036-.071 7.784 7.784 0 0 1-1.083-
-                        .212l-2.262-6.317a8.974 8.974 0 0 0 1.65.59 6.61 6.61 0 0 0 1.6.211c1.069 0 2.042-.243 2.922-.73.879-.488 1.554-1.391 
-                        2.025-2.711l.943-2.734-10.506-27.248h7.396l6.266 17.536 5.889-17.536h7.302zm-28.502-4.102H83.806v8.769h17.478v5.94H83.
-                        806v16.688h-7.16V2.179h24.873v6.27z" />
+                        2.42-2.104 4.164-3.58 5.233-1.476 1.068-3.235 1.603-5.277 1.603a8.4 8.4 0 0 1-1.036-.071 7.784 7.784 0 0 1-1.083-.212l-2.262-6.317a8.974 8.974 0 0 0 1.65.59 6.61 6.61 0 0 0 1.6.211c1.069 0 2.042-.243 2.922-.73.879-.488 1.554-1.391 
+                        2.025-2.711l.943-2.734-10.506-27.248h7.396l6.266 17.536 5.889-17.536h7.302zm-28.502-4.102H83.806v8.769h17.478v5.94H83.806v16.688h-7.16V2.179h24.873v6.27z" />
                     </g>
                 </svg>
                 <div className='navBtns'>
@@ -30,7 +28,15 @@ const Homepage = () => {
                     <p>Sign In</p>
                 </div>
             </nav>
-        </>
+            <div>
+                <img src="images/illustration-intro.png" alt="intro image" height={500} width={600} />
+                <h1>All your files in one secure location, accessible anywhere.</h1>
+                <p>Fylo stores all your most important files in one secure location. Access them wherever
+                    you need, share and collaborate with friends family, and co-workers.</p>
+                <button>Get Started</button>
+            </div>
+
+        </div>
     )
 }
 
