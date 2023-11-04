@@ -94,7 +94,9 @@ const Homepage = () => {
             </div>
 
             <div className='testimonials'>
-                {/*                 <img src="images/bg-quotes.png" alt="quotes" /> */}
+                {/* <div className='quotesBackground with-background'> */}
+                    <img src="images/bg-quotes.png" alt="quotes" id='quotes' />
+                {/* </div> */}
                 <div className='testimonialBlock'>
                     <p>
                         Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has
